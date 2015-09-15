@@ -1,4 +1,4 @@
-<?
+<?php
 
 	// prints everything in a nice box
 	if (function_exists('print_r_pre') === false){

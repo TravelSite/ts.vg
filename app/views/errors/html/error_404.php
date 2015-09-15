@@ -59,6 +59,7 @@ p {
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
+		-<?php echo $this->uri->rsegment_array(); ?>-
 	</div>
 </body>
 </html>

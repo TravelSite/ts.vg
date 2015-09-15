@@ -9,8 +9,7 @@ class Jump extends CI_Controller {
 
 	public function index(){
 //		$hash = $this->url_shortener->decode($this->uri->segment(1));
-		$hash = $this->uri->segment(1);
-		
+		$hash = $this->uri->segment(1);	
 		redirect('http://travelsite.com/jump/'.$hash);
 	}
 	
